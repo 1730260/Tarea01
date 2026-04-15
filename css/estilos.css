@@ -21,12 +21,12 @@ body {
     line-height: 1.6;
     padding:20px
 }
-header{
+header {
     text-align:center;
     padding: 20px;
     background-color: #e5e9f0;
 }
-header img{
+header img {
     width: 150px;
 }
 nav{
@@ -53,7 +53,7 @@ nav ul li a:hover{
     border-radius: 10px;
     color: rgb(223, 213, 126);
 }
-section{
+section {
     justify-content: flex-end;
     display: flex;
     flex-direction: row;
@@ -61,21 +61,21 @@ section{
     margin-bottom: 20px;
     margin-top: 20px;
 }
-article{
+article {
     flex: 2;
     background-color: #d8dee9;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px #022442;
 }
-article ul, ol, dl{
+article ul, ol, dl {
     padding: 10px;
     margin: 10px;
 }
-article img{
+article img {
     width: 500px;
 }
-aside{
+aside {
     justify-content: center;
     flex: 1;
     background-color: rgb(201, 201, 250);
@@ -83,7 +83,7 @@ aside{
     border-radius: 8px;
     box-shadow: 0 2px 5px #022442;
 }
-footer{
+footer {
     text-align: center;
     padding: 15px;
     background-color: #2e3440;
@@ -91,7 +91,7 @@ footer{
     border-radius: 8px;
     margin-top: 20px;
 }
-footer a{
+footer a {
     color: #e5e9f0;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
