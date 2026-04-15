@@ -49,7 +49,7 @@ nav ul li a{
     transition: background-color 0,7s;
 }
 nav ul li a:hover{
-    background-color: #393888;
+    background-color: #62718d;
     border-radius: 10px;
     color: rgb(223, 213, 126);
 }
@@ -78,10 +78,13 @@ article img {
 aside {
     justify-content: center;
     flex: 1;
-    background-color: rgb(201, 201, 250);
+    background-color: #2e3440;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px #022442;
+}
+aside h2, aside h3, aside h4, aside h5, aside h6, aside p {
+    color: #d8dee9;
 }
 footer {
     text-align: center;
@@ -97,5 +100,9 @@ footer a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 8px 12px;
     flex: 2;
+}
+
+footer a:hover {
+    color: #afc6ee;
 }
 
