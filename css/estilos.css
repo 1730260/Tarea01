@@ -1,16 +1,4 @@
-
-}
-header img{
-    width: 150px;
-}
-nav{
-
-    background-color: #0c0a64;
-    padding: 10px;
-
-}
-nav ul{
-    display: flex;
+*{
     list-style: none;
     justify-content: center;
     gap: 15px;
