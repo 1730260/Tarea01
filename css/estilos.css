@@ -75,6 +75,19 @@ article ul, ol, dl {
 article img {
     width: 500px;
 }
+
+table {
+    background-color: #022442;
+}
+th {
+    background-color: #313952;
+    color: #e5e9f0;
+}
+td {
+    background-color: #4c566a;
+    color: #c6d4eb;
+}
+
 aside {
     justify-content: center;
     flex: 1;
