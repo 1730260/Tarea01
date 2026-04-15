@@ -30,10 +30,8 @@ header img{
     width: 150px;
 }
 nav{
-
     background-color: #2e3440;
     padding: 10px;
-
 }
 nav ul{
     display: flex;
