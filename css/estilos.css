@@ -21,7 +21,7 @@ body {
 header{
     text-align:center;
     padding: 20px;
-    background-color: white;
+    background-color: #e5e9f0;
 }
 header img{
     width: 150px;
@@ -85,13 +85,13 @@ aside{
 footer{
     text-align: center;
     padding: 15px;
-    background-color: #06053b;
-    color: white;
+    background-color: #2e3440;
+    color: #e5e9f0;
     border-radius: 8px;
     margin-top: 20px;
 }
 footer a{
-    color: white;
+    color: #e5e9f0;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 8px 12px;
