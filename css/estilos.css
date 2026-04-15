@@ -3,6 +3,35 @@
     justify-content: center;
     gap: 15px;
 }
+
+body {
+    justify-content: flex-end;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding:20px
+}
+header{
+    text-align:center;
+    padding: 20px;
+    background-color: white;
+}
+header img{
+    width: 150px;
+}
+nav{
+
+    background-color: #0c0a64;
+    padding: 10px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 15px;
+}
+
 nav ul li a{
     text-decoration: none;
     color: white;
