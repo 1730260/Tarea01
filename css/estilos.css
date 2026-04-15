@@ -51,7 +51,7 @@ nav ul li a{
 nav ul li a:hover{
     background-color: #62718d;
     border-radius: 10px;
-    color: rgb(223, 213, 126);
+    color: #c6d4eb;
 }
 section {
     justify-content: flex-end;
