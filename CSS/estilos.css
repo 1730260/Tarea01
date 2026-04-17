@@ -78,6 +78,10 @@ article img {
 
 table {
     background-color: #022442;
+    flex: 2;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #022442;
 }
 th {
     background-color: #313952;
