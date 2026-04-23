@@ -25,7 +25,7 @@ function mensajeAlert6() {
 }
 
 function cambio1() {
-
+    alert("me encontraste!")
 }
 function cambio2() {
 
