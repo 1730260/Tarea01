@@ -47,19 +47,23 @@ function cambio1() {
     alert("CAMBIOOOO!!!!");
     document.getElementById("cambioTexto1").textContent = "¡Insecto insignificante!";
     document.getElementById("capGinyu").src="../Images/capGinyu_cambio.gif";
+    document.getElementById("dialogo").textContent = "CAMBIO!!!";
 }
 function cambio2() {
     alert("CAMBIOOOO!!!!");
     document.getElementById("cambioTexto2").textContent = "¡Ni siquiera mereces que use todo mi poder!";
     document.getElementById("capGinyu").src="../Images/capGinyu_cambio.gif";
+    document.getElementById("dialogo").textContent = "CAMBIO!!!";
 }
 function cambio3() {
     alert("CAMBIOOOO!!!!");
     document.getElementById("cambioTexto3").textContent = "¡Patético!";
     document.getElementById("capGinyu").src="../Images/capGinyu_cambio.gif";
+    document.getElementById("dialogo").textContent = "CAMBIO!!!";
 }
 
 function rana() {
     alert("¿Una rana?");
     document.getElementById("capGinyu").src = "../Images/ginyu_rana.jpg";
+    document.getElementById("dialogo").textContent = "Croac! Croac! ....";
 }
