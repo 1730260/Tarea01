@@ -61,6 +61,6 @@ function cambio3() {
 
 function rana() {
     alert("¿Una rana?");
-    document.querySelector(".rana").textContent = "Croac!";
+    document.querySelectorAll(".rana").textContent = "Croac!";
     document.getElementById("capGinyu").src = "../Images/ginyu_rana.jpg";
 }
