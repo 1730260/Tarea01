@@ -10,6 +10,7 @@ function cambiando_caja() {
     switch (cambios) {
         case 0:
             document.getElementById("caja").src = "../Images/caja cerrada.png";
+            break;
         case 1:
             document.getElementById("caja").src = "../Images/caja casi cerrada.png";
             break;
