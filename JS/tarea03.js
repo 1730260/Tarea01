@@ -23,6 +23,7 @@ function cambiando_caja() {
         case 4:
             document.getElementById("caja").src = "../Images/caja mas abierta.png";
             break;
+    }
 }
 function abriendo_caja() {
     if (cambios < 4) {
