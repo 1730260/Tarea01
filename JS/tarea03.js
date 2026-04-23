@@ -26,7 +26,7 @@ function cambiando_caja() {
 }
 function abriendo_caja() {
     if (cambios < 4) {
-        alert("me encontraste!");
+        alert("me encontraste!" + cambios);
         cambios++;
         cambiando_caja();
     } else {
