@@ -5,7 +5,7 @@ function ejercicio9(){
     alert("Recorriste " + distKM + " km y su total a pagar es: " + total);
 }
 
-function () {
+function mensajeAlert1() {
     alert("")
 }
 function mensajeAlert2() {
