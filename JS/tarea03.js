@@ -1,5 +1,5 @@
 function ejercicio9(){
-    let distKM = 3;
+    let distKM = prompt("Escriba los km recorridos: ");
     let tarifaB = 10, km = 3;
     let total = distKM * km + tarifaB;
     alert("Recorriste " + distKM + " km y su total a pagar es: " + total);
