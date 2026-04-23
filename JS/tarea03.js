@@ -11,7 +11,7 @@ function cambiando_caja() {
         case 0:
             document.getElementById("caja").src = "../Images/caja cerrada.png";
         case 1:
-            document.getElementById("caja").src = "../Images/caja casi cerrada";
+            document.getElementById("caja").src = "../Images/caja casi cerrada.png";
             break;
         case 2:
             document.getElementById("caja").src = "../Images/caja poco abierta.png";
