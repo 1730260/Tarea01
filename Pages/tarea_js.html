@@ -5,6 +5,7 @@
     <link rel="icon" href="../Images/senati.jpg" />
     <title>Mi Segunda Pagina Web</title>
     <link rel="stylesheet" href="../CSS/estilos.css">
+    <script src="../JS/tarea03.js"></script>
 </head>
 
 <body>
@@ -29,23 +30,28 @@
 
     <section>
         <article>
-            <img id="cajas" src="../Images/caja abierta.png">
+            <img id="cajas" src="../Images/caja cerrada.png">
         </article>
-        <article></article>
+        <article>
+            <img id="capGinyu" src="../Images/capGinyu.gif">
+        </article>
         <aside>
-            <button>Sere yo</button>
-            <button>o yo</button>
-            <button>quien es?</button>
-            <button>tu eres?</button>
-            <button>no soy yo</button>
-            <button>si soy yo</button>
-            <button onclick="">casii</button>
-            <button>te engañe</button>
-            <button>seguro?</button>
-            <button>mmm...</button>
-            <button>me encontraste!</button>
-            <button>eres tu!</button>
-            <button>que no soy yo</button>
+            <button class="rana" onclick="abriendo_caja()">Sere yo</button>
+            <button class="rana" onclick="rana()">o tu</button>
+            <button class="rana" onclick="cerrando_caja()">o yo</button>
+            <button class="rana" id="cambioTexto1" onclick="cerrando_caja()">quien es?</button>
+            <button class="rana" onclick="cambio1()">tu eres?</button>
+            <button class="rana" onclick="cerrando_caja()">no soy yo</button>
+            <button class="rana" id="cambioTexto3" onclick="cerrando_caja()">si soy yo</button>
+            <button class="rana" onclick="abriendo_caja()">casii</button>
+            <button class="rana" onclick="abriendo_caja()">te engañe</button>
+            <button class="rana" onclick="cerrando_caja()">seguro?</button>
+            <button class="rana" id="cambioTexto2" onclick="cerrando_caja()">mmm...</button>
+            <button class="rana" onclick="cambio2()">me encontraste!</button>
+            <button class="rana" onclick="abriendo_caja()">eres tu!</button>
+            <button class="rana" onclick="abriendo_caja()">que no soy yo</button>
+            <button class="rana" onclick="rana()">de nuevo?</button>
+            <button class="rana" onclick="cambio3()">una ves mas</button>
         </aside>
     </section>
     
