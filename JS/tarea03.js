@@ -6,18 +6,37 @@ function ejercicio9(){
 }
 
 let cambios = 0;
+function cambiando_caja() {
+    switch (cambios) {
+        case 0:
+            document.getElementById("caja").src = "../Images/caja cerrada.png";
+        case 1:
+            document.getElementById("caja").src = "../Images/caja casi cerrada";
+            break;
+        case 2:
+            document.getElementById("caja").src = "../Images/caja poco abierta.png";
+            break;
+        case 3:
+            document.getElementById("caja").src = "../Images/caja abierta.png";
+            break;
+        case 4:
+            document.getElementById("caja").src = "../Images/caja mas abierta.png";
+            break;
+}
 function abriendo_caja() {
-    if (cambios < 5) {
+    if (cambios < 4) {
         alert("me encontraste!");
         cambios++;
+        cambiando_caja();
     } else {
         alert("Que intentas, Romperme???");
     }
 }
 function cerrando_caja() {
     if (cambios > 0) {
-        alert("o no te equivocaste");cambios--;
+        alert("o no te equivocaste");
         cambios--;
+        cambiando_caja();
     } else {
         alert("Ya estoy cerradooo!!!");
     }
