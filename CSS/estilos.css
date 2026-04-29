@@ -37,6 +37,7 @@ nav ul{
     display: flex;
     justify-content: center;
     gap: 15px;
+    list-style: none;
 }
 
 nav ul li a{
