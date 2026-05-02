@@ -12617,9 +12617,10 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
-  .foot {
+  
+}
+.foot {
     bottom: 0;
     position: fixed;
     width: 100%;
   }
-}
