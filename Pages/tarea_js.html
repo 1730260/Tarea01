@@ -36,6 +36,63 @@
         <article>
             <img id="capGinyu" src="../Images/capGinyu.gif">
         </article>
+        <article>
+            <h3>Ejercicio 01 - Costo de compra</h3>
+            <dl>
+                <dt>1. Cálculo del costo total de una compra</dt>
+                <dd>Pedir el precio de tres productos y sus cantidades.</dd>
+                <dd>Calcular el total a pagar.</dd>
+                <dd>Aplicar un descuento del 5% si el total supera $100.</dd>
+            </dl>
+            <form id="formCompra" action="" method="post">
+                <label>Precio Producto 1: </label><input type="number" id="precio1" placeholder="Precio"><br>
+                <label>Cantidad Producto 1: </label><input type="number" id="cant1" placeholder="Cantidad"><br><br>
+
+                <label>Precio Producto 2: </label><input type="number" id="precio2" placeholder="Precio"><br>
+                <label>Cantidad Producto 2: </label><input type="number" id="cant2" placeholder="Cantidad"><br><br>
+
+                <label>Precio Producto 3: </label><input type="number" id="precio3" placeholder="Precio"><br>
+                <label>Cantidad Producto 3: </label><input type="number" id="cant3" placeholder="Cantidad"><br><br>
+
+                <button type="submit">Calcular</button>
+                <button type="reset">Borrar</button>
+            </form>
+            <p id="totalCompra">Aquí se muestra el total</p>
+        </article>
+
+        <article>
+            <h3>Ejercicio 02 - División de cuenta</h3>
+            <dl>
+                <dt>2. División de una cuenta entre amigos</dt>
+                <dd>Pedir el total de la cuenta en un restaurante.</dd>
+                <dd>Pedir cuántas personas pagarán.</dd>
+                <dd>Calcular cuánto debe pagar cada persona.</dd>
+            </dl>
+            <form id="formCuenta" action="" method="post">
+                <label>Total de la cuenta: </label><input type="number" id="cuentaTotal" placeholder="Monto"><br>
+                <label>Número de personas: </label><input type="number" id="personas" placeholder="Personas"><br><br>
+                <button type="submit">Calcular</button>
+                <button type="reset">Borrar</button>
+            </form>
+            <p id="divisionCuenta">Aquí se muestra cuánto paga cada persona</p>
+        </article>
+
+        <article>
+            <h3>Ejercicio 03 - Conversión de divisas</h3>
+            <dl>
+                <dt>3. Conversión de divisas</dt>
+                <dd>Pedir una cantidad en dólares.</dd>
+                <dd>Pedir la tasa de cambio a moneda local.</dd>
+                <dd>Convertir y mostrar el equivalente en la otra moneda.</dd>
+            </dl>
+            <form id="formDivisas" action="" method="post">
+                <label>Cantidad en dólares: </label><input type="number" id="dolares" placeholder="USD"><br>
+                <label>Tasa de cambio: </label><input type="number" id="tasa" placeholder="Ej: 3.8"><br><br>
+                <button type="submit">Convertir</button>
+                <button type="reset">Borrar</button>
+            </form>
+            <p id="conversion">Aquí se muestra el equivalente</p>
+        </article>
         <aside>
             <button onclick="ejercicio9()">EJERCICIO 09</button>
             <button onclick="abriendo_caja()">Sere yo</button>
@@ -57,7 +114,7 @@
             <p id="dialogo">¡Yo soy el Capitán Ginyu, líder de las Fuerzas Especiales Ginyu!</p>
         </aside>
     </section>
-    
+
     <footer>
         <a href="https://senati.blackboard.com/" target="_blank">Blackboard</a>
         <a href="#">Mi Repositorio</a>
