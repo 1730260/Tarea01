@@ -3212,7 +3212,7 @@ textarea.form-control.is-invalid {
   --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
-  --bs-btn-color: #212529;
+  --bs-btn-color: #314911;;
   --bs-btn-bg: transparent;
   --bs-btn-border-width: 1px;
   --bs-btn-border-color: transparent;
@@ -3248,9 +3248,9 @@ textarea.form-control.is-invalid {
 }
 
 .btn:hover {
-  color: var(--bs-btn-hover-color);
-  background-color: var(--bs-btn-hover-bg);
-  border-color: var(--bs-btn-hover-border-color);
+  color: #F4FCF2;
+  background-color: #314911;
+  border-color: #314911;;
 }
 
 .btn-check+.btn:hover {
@@ -3260,9 +3260,9 @@ textarea.form-control.is-invalid {
 }
 
 .btn:focus-visible {
-  color: var(--bs-btn-hover-color);
-  background-color: var(--bs-btn-hover-bg);
-  border-color: var(--bs-btn-hover-border-color);
+  color: #F4FCF2;
+  background-color: #314911;
+  border-color: #314911;
   outline: 0;
   box-shadow: var(--bs-btn-focus-box-shadow);
 }
