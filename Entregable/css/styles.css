@@ -7876,6 +7876,7 @@ fieldset:disabled .btn {
   flex: 1 1 auto;
   flex-direction: column;
   align-self: stretch;
+  justify-content: center;
 }
 
 .visually-hidden,
