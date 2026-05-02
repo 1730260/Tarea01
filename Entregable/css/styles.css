@@ -7650,7 +7650,7 @@ fieldset:disabled .btn {
 }
 
 .text-bg-light {
-  color: #000 !important;
+  color: #F4FCF2 !important;
   background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;
 }
 
